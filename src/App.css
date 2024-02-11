@@ -1,0 +1,86 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.parent-div {
+  margin-left: 40vw;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 15rem;
+  margin: auto;
+}
+
+form div input {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid blueviolet;
+  margin: 20px 0px;
+}
+
+form div select {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid blueviolet;
+}
+
+form button {
+  background-color: blueviolet;
+  color: white;
+  margin-top: 10px;
+}
+
+div span {
+  color: red;
+}
+
+/* //////////////////////////////////////////////////// */
+
+/* Add your CSS styles here */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: 20vw;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+button {
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
