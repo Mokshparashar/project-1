@@ -35,7 +35,7 @@ const List: React.FC<Props> = ({ students, onBackToForm }) => {
         <tbody>
           {students.map((student, index) => (
             <tr key={index}>
-              <td>{student.gender === "male" ? "Mr" : "Miss"}</td>
+              <td>{student.gender === "male" ? "Mr" : "Mrs"}</td>
               <td>
                 {student.firstName} {student.lastName}
               </td>
